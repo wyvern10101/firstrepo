@@ -1,0 +1,39 @@
+body {
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 2em;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-bottom: 1em;
+    color: #333;
+}
+
+#count {
+    font-size: 1.5em;
+    margin: 1em 0;
+}
+
+#clickBtn {
+    padding: 0.75em 2em;
+    font-size: 1.25em;
+    background: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#clickBtn:hover {
+    background: #005fa3;
+}
